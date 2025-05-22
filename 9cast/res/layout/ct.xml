@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/n3" android:layout_marginTop="@dimen/n2">
+        <androidx.viewpager.widget.ViewPager android:layout_gravity="center_horizontal" android:id="@id/a0a" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="bottom|center|right" android:id="@id/ty" android:layout_marginBottom="12.0dip" android:layout_marginEnd="8.0dip" app:v9="@drawable/hy" style="@style/to" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/t2" android:layout_width="fill_parent" android:layout_height="@dimen/n4" android:layout_marginTop="@dimen/mz" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/dw" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout style="@style/tp">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/wn" app:v9="@drawable/nl" style="@style/to" />
+        </LinearLayout>
+        <LinearLayout style="@style/tp">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/s4" app:v9="@drawable/n4" style="@style/to" />
+        </LinearLayout>
+        <LinearLayout style="@style/tp">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/rk" app:v9="@drawable/n0" style="@style/to" />
+        </LinearLayout>
+        <LinearLayout style="@style/tp">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/ps" app:v9="@drawable/ms" style="@style/to" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/j8" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/du" />
+    <ImageView android:background="@drawable/eb" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_alignBottom="@id/j8" />
+    <LinearLayout android:orientation="vertical" android:id="@id/du" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <FrameLayout android:id="@id/fr" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.safeads.android.gms.ads.AdView android:id="@id/container" android:tag="google_native_ad_all" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.inshot.adcool.widget.BannerAdLayout android:id="@id/ba" android:layout_width="fill_parent" android:layout_height="wrap_content" app:yt="true" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

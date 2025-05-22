@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/g0" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="centerCrop" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/nk" android:background="@drawable/c3" android:layout_width="36.0dip" android:layout_height="fill_parent" android:layout_centerVertical="true" android:paddingStart="8.0dip" android:paddingEnd="16.0dip" android:layout_alignParentEnd="true" app:v9="@drawable/j3" />
+    <TextView android:ellipsize="end" android:id="@id/yq" android:layout_marginTop="17.0dip" android:text="fldjfl" android:lines="1" android:layout_marginStart="16.0dip" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/nk" android:layout_toEndOf="@id/g0" style="@style/u1" />
+    <TextView android:ellipsize="end" android:id="@id/wt" android:text="fjldjfld" android:lines="1" android:layout_below="@id/yq" android:layout_marginStart="16.0dip" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/nk" android:layout_toEndOf="@id/g0" style="@style/u0" />
+</RelativeLayout>

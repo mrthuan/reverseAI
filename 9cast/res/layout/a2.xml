@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/d2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/z0" android:background="@color/ar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:id="@id/fk" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/container" android:layout_below="@id/d2" />
+    <com.safeads.android.gms.ads.AdView android:id="@id/container" android:tag="google_native_ad_all" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.safeads.android.gms.ui.InterViewLoad android:tag="google_inter_ad_all" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <com.safeads.android.gms.ui.InterViewShow android:tag="google_inter_ad_all" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</RelativeLayout>

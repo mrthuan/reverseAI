@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/j" android:id="@id/d2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/z0" android:background="?f3" android:layout_width="fill_parent" android:layout_height="?d" app:t_="@style/k" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:id="@id/fs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@id/j8" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/fs" android:layout_below="@id/d2" />
+    <ImageView android:background="@drawable/eb" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_alignBottom="@id/j8" />
+    <com.safeads.android.gms.ads.AdView android:id="@id/container" android:tag="google_native_ad_all" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <com.safeads.android.gms.ui.InterViewLoad android:tag="google_inter_ad_music_playlist" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <com.safeads.android.gms.ui.InterViewShow android:tag="google_inter_ad_music_playlist" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</RelativeLayout>

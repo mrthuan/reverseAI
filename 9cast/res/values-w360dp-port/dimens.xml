@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="iq">4.0dip</dimen>
+    <dimen name="is">18.0dip</dimen>
+    <dimen name="it">40.0dip</dimen>
+    <dimen name="iu">2.0dip</dimen>
+    <dimen name="iw">2.0dip</dimen>
+    <dimen name="ix">40.0dip</dimen>
+    <dimen name="iy">40.0dip</dimen>
+    <dimen name="ja">4.0dip</dimen>
+</resources>

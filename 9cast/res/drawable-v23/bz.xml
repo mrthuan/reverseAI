@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <color android:color="@color/cm" />
+    </item>
+    <item android:gravity="start|center|top" android:drawable="@drawable/oi" android:left="36.0dip" />
+    <item android:gravity="end|bottom|center" android:drawable="@drawable/oj" android:bottom="180.0dip" />
+    <item android:gravity="start|bottom|center" android:drawable="@drawable/ok" android:bottom="40.0dip" />
+</layer-list>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="kc" parent="@style/ka" />
+    <style name="kd" parent="@style/ka" />
+    <style name="ke" parent="@style/kj" />
+    <style name="kf" parent="@style/kk" />
+    <style name="kg" parent="@style/kl" />
+    <style name="kh" parent="@style/km" />
+    <style name="ki" parent="@style/kv" />
+    <style name="l7" parent="@style/l3" />
+    <style name="l8" parent="@style/l4" />
+    <style name="l9" parent="@style/l5" />
+    <style name="l_" parent="@style/l3" />
+    <style name="la" parent="@style/l5" />
+    <style name="lb" parent="@style/lm" />
+    <style name="lc" parent="@style/ln" />
+    <style name="ld" parent="@style/lo" />
+    <style name="le" parent="@style/lp" />
+    <style name="lf" parent="@style/lq" />
+    <style name="lg" parent="@style/lr" />
+    <style name="lh" parent="@style/ls" />
+    <style name="li" parent="@style/lt" />
+    <style name="lj" parent="@style/lu" />
+    <style name="lk" parent="@style/mc" />
+    <style name="ll" parent="@style/md" />
+    <style name="mn" parent="@style/ml" />
+    <style name="n7" parent="@style/n4" />
+    <style name="qb" parent="@style/qd" />
+    <style name="qf" parent="@style/qg" />
+    <style name="qo" parent="@style/qm" />
+    <style name="qr" parent="@style/qp" />
+    <style name="so" parent="@style/sm" />
+    <style name="ta" parent="@style/tb" />
+</resources>

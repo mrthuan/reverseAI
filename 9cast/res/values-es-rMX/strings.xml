@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fz">Instalar</string>
+    <string name="kt">Abrir</string>
+    <string name="l8">Permitido</string>
+    <string name="l9">Configuración</string>
+    <string name="l_">Presione la flecha del menú desplegable y seleccione %1$sTodas las aplicaciones%2$s</string>
+    <string name="la">Busque y presione %1$s%3$s%2$s</string>
+    <string name="lb">Seleccione %1$sNo optimizar%2$s</string>
+    <string name="lc">Para estar seguro que su aplicación funciona adecuadamente, deshabilite el optimizador de batería en la página siguiente:</string>
+    <string name="ld">Ir a configurar</string>
+    <string name="lf">Inicio automático</string>
+    <string name="lg">Para garantizar que %s funcione adecuadamente</string>
+    <string name="lh">Permiso requerido</string>
+    <string name="li">Encuentra y haz clic en Administrador Dropzone</string>
+    <string name="lj">Encuentra %s y concede el permiso</string>
+    <string name="lk">Por favor, abre %s</string>
+    <string name="ll">Por favor, abre el permiso Emergente</string>
+    <string name="lm">Encuentra y haz clic en Administrador de Permisos</string>
+    <string name="ln">Encuentra Mostrar ventana emergente y haz clic en el botón</string>
+    <string name="lo">Mostrar sobre otras aplicaciones</string>
+    <string name="lp">Aplicaciones protegidas</string>
+</resources>

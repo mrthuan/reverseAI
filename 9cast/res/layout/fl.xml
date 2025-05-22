@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#19b3b5ba" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="54.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="#ff333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/lh" android:layout_centerVertical="true" android:fontFamily="sans-serif-medium" />
+        <ImageButton android:id="@id/eb" android:background="?ud" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rc" android:scaleType="center" android:minWidth="48.0dip" android:minHeight="48.0dip" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:gravity="center" android:id="@id/rf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/lc" android:alpha="0.76" android:fontFamily="sans-serif-medium" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="28.0dip" android:layout_marginBottom="10.0dip">
+                <TextView android:layout_gravity="center_vertical" android:text="1" style="@style/uj" />
+                <TextView android:textSize="16.0sp" android:textColor="#b2151515" android:layout_gravity="center_vertical" android:id="@id/r_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/l_" android:fontFamily="sans-serif" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="28.0dip" android:layout_marginBottom="10.0dip">
+                <TextView android:layout_gravity="center_vertical" android:text="2" style="@style/uj" />
+                <TextView android:textSize="16.0sp" android:textColor="#b2151515" android:layout_gravity="center_vertical" android:id="@id/ra" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/la" android:fontFamily="sans-serif" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="28.0dip" android:layout_marginBottom="10.0dip">
+                <TextView android:layout_gravity="center_vertical" android:text="3" style="@style/uj" />
+                <TextView android:textSize="16.0sp" android:textColor="#b2151515" android:layout_gravity="center_vertical" android:id="@id/rb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/lb" android:fontFamily="sans-serif" />
+            </LinearLayout>
+            <Button android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/ec" android:background="@drawable/r_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="36.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="36.0dip" android:layout_marginBottom="24.0dip" android:minHeight="48.0dip" android:text="@string/l9" android:textAllCaps="true" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

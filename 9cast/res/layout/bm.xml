@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="90.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/x8" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="4.0dip" android:paddingEnd="4.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/x6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:v9="@drawable/i5" />
+        <TextView android:textSize="13.0sp" android:textColor="#61000000" android:gravity="center_vertical" android:id="@id/x7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/p9" android:textAllCaps="true" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/id" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="8.0dip" android:paddingStart="4.0dip" android:paddingEnd="4.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center|right" android:id="@id/ib" android:layout_width="wrap_content" android:layout_height="wrap_content" app:v9="@drawable/h4" />
+        <TextView android:textSize="13.0sp" android:textColor="#61000000" android:gravity="center_vertical" android:id="@id/ic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f5" android:textAllCaps="true" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/a16" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:paddingStart="4.0dip" android:paddingEnd="4.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center|right" android:id="@id/a11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" app:v9="@drawable/h4" />
+        <TextView android:textSize="13.0sp" android:textColor="#61000000" android:gravity="center_vertical" android:id="@id/a15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f5" android:layout_centerVertical="true" android:textAllCaps="true" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/a11" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/ar" android:id="@id/fi" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cu" android:layout_centerVertical="true" android:textAllCaps="true" android:layout_alignParentEnd="true" app:k5="@font/c" />
+    </RelativeLayout>
+</LinearLayout>

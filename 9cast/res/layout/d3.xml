@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff303030" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#ff424242" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/si" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mj" android:layout_centerVertical="true" android:layout_marginStart="11.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/fy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:alpha="0.5" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/si" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/mb" android:background="@drawable/c3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/ma" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" />
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/m_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/t2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

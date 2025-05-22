@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="13" android:drawable="@drawable/fl" />
+    <item android:duration="13" android:drawable="@drawable/fm" />
+    <item android:duration="13" android:drawable="@drawable/fn" />
+    <item android:duration="13" android:drawable="@drawable/fo" />
+    <item android:duration="13" android:drawable="@drawable/fp" />
+    <item android:duration="13" android:drawable="@drawable/fq" />
+    <item android:duration="13" android:drawable="@drawable/fr" />
+    <item android:duration="13" android:drawable="@drawable/fs" />
+    <item android:duration="13" android:drawable="@drawable/ft" />
+    <item android:duration="13" android:drawable="@drawable/fu" />
+    <item android:duration="13" android:drawable="@drawable/fv" />
+    <item android:duration="13" android:drawable="@drawable/fw" />
+    <item android:duration="13" android:drawable="@drawable/fx" />
+    <item android:duration="13" android:drawable="@drawable/fy" />
+    <item android:duration="13" android:drawable="@drawable/fz" />
+    <item android:duration="13" android:drawable="@drawable/g0" />
+</animation-list>

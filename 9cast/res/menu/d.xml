@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/h3" android:title="DLNA" />
+    <item android:id="@id/f6" android:title="Chromecast" />
+    <item android:id="@id/iu" android:title="Fire Stick" />
+    <item android:id="@id/tx" android:title="Roku" />
+    <item android:id="@id/a1c" android:title="XBox" />
+    <item android:id="@id/d3" android:title="Apple TV" />
+    <item android:id="@id/a0y" android:title="Web OS" />
+    <item android:id="@id/qn" android:title="@string/d" />
+</menu>

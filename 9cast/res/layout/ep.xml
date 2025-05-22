@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="@dimen/j4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center|top" android:orientation="horizontal" android:paddingLeft="@dimen/j1" android:paddingTop="@dimen/j1" android:paddingRight="@dimen/j1" android:layout_width="fill_parent" android:layout_height="@dimen/j4" android:paddingStart="@dimen/j1" android:paddingEnd="@dimen/j1" style="?pt">
+        <com.google.android.material.button.MaterialButton android:gravity="center" android:layout_gravity="top" android:id="@id/ei" android:padding="12.0dip" android:layout_width="@dimen/kx" android:layout_height="@dimen/kx" android:insetTop="0.0dip" android:insetBottom="0.0dip" android:contentDescription="@string/io" app:l4="@drawable/pg" app:tz="@color/e6" style="?pq" />
+        <FrameLayout android:id="@id/pd" android:paddingLeft="@dimen/j6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="@dimen/j6">
+            <TextView android:gravity="start|bottom|center" android:layout_gravity="start|center|top" android:id="@id/pi" android:layout_width="fill_parent" android:layout_height="wrap_content" app:jj="@dimen/jm" style="?pv" />
+            <TextView android:gravity="start|bottom|center" android:layout_gravity="start|center|top" android:id="@id/pc" android:paddingBottom="@dimen/jf" android:layout_width="fill_parent" android:layout_height="wrap_content" app:jj="@dimen/jg" app:of="@dimen/j5" style="?pu" />
+        </FrameLayout>
+        <LinearLayout android:orientation="@integer/t" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.google.android.material.button.MaterialButton android:layout_gravity="end|center|top" android:id="@id/fh" android:layout_width="wrap_content" android:layout_height="@dimen/kx" android:text="@string/j5" android:contentDescription="@string/j5" style="?pr" />
+            <include layout="@layout/es" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/j2" style="?ps" />
+</merge>

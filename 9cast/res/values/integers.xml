@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="a">220</integer>
+    <integer name="b">150</integer>
+    <integer name="c">0</integer>
+    <integer name="d">180</integer>
+    <integer name="e">150</integer>
+    <integer name="f">150</integer>
+    <integer name="g">127</integer>
+    <integer name="h">150</integer>
+    <integer name="i">2</integer>
+    <integer name="j">300</integer>
+    <integer name="k">12451000</integer>
+    <integer name="l">320</integer>
+    <integer name="m">400</integer>
+    <integer name="n">400</integer>
+    <integer name="o">200</integer>
+    <integer name="p">300</integer>
+    <integer name="q">4</integer>
+    <integer name="r">100</integer>
+    <integer name="s">100</integer>
+    <integer name="t">1</integer>
+    <integer name="u">1</integer>
+    <integer name="v">3</integer>
+    <integer name="w">75</integer>
+    <integer name="x">120</integer>
+    <integer name="y">100</integer>
+    <integer name="z">250</integer>
+    <integer name="a0">200</integer>
+    <integer name="a1">999</integer>
+</resources>

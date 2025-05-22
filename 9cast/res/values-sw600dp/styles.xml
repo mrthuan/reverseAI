@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="q8" parent="@style/f4">
+        <item name="w7">es</item>
+        <item name="wj">iw</item>
+    </style>
+</resources>

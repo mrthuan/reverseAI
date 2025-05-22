@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" app:co="#ffffffff" app:cp="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="16.0dip" android:paddingStart="23.0dip" android:paddingEnd="23.0dip">
+        <TextView android:textSize="20.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dg" android:alpha="0.87" android:fontFamily="sans-serif-medium" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:layout_marginBottom="11.0dip" android:src="@mipmap/bj" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dh" android:alpha="0.87" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/di" android:alpha="0.87" />
+        <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/qf" android:background="@drawable/r5" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginTop="21.0dip" android:text="@string/kr" android:fontFamily="sans-serif-medium" android:letterSpacing="0.0" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/ar" android:id="@id/v9" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/od" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

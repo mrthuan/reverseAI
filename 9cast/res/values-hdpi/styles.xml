@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="e5" parent="@style/e6">
+        <item name="bd">18.659973dip</item>
+        <item name="hm">24.0dip</item>
+        <item name="kh">3.3299866dip</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/r7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/r7" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#de000000" android:gravity="center" android:id="@id/r8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:text="@string/l5" android:layout_marginStart="50.0dip" android:layout_marginEnd="50.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="#80000000" android:gravity="start" android:id="@id/r6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/l7" android:lineSpacingExtra="1.0dip" android:layout_marginStart="50.0dip" android:layout_marginEnd="50.0dip" />
+        <androidx.appcompat.widget.AppCompatButton android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/r5" android:background="@drawable/r5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:text="Allow" android:textAllCaps="true" style="@style/dv" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="c">
+        <item>@string/f6</item>
+        <item>@string/f7</item>
+        <item>@string/f8</item>
+    </string-array>
+    <string-array name="d">
+        <item>@string/f_</item>
+        <item>@string/fa</item>
+    </string-array>
+    <string-array name="e">
+        <item>@string/fc</item>
+    </string-array>
+    <string-array name="f">
+        <item>@string/fe</item>
+    </string-array>
+    <string-array name="g">
+        <item>@string/fg</item>
+    </string-array>
+    <string-array name="h">
+        <item>@string/fi</item>
+        <item>@string/fj</item>
+    </string-array>
+    <string-array name="i">
+        <item>@string/fl</item>
+        <item>@string/fm</item>
+    </string-array>
+</resources>

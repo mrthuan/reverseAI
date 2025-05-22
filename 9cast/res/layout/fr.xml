@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/bp" android:paddingRight="@dimen/bp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/a0c" style="@style/uj" />
+    <TextView android:gravity="start|center" android:id="@id/a0d" android:layout_marginBottom="@dimen/g8" android:layout_toEndOf="@id/a0c" style="@style/ul" />
+    <com.zjlib.permissionguide.widget.viewpager.ScalingImageView android:id="@id/a0b" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" android:adjustViewBounds="true" android:layout_below="@id/a0d" />
+</RelativeLayout>

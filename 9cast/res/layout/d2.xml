@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.inshot.adcool.banner.AdView android:id="@id/pn" android:background="#fff4f4f4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/bf" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_alignParentStart="true">
+        <ImageView android:id="@id/bv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    </FrameLayout>
+    <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/bs" android:background="@drawable/c6" android:paddingLeft="8.0dip" android:paddingTop="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:fontFamily="sans-serif-medium" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="10.0dip" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/bs" android:layout_toEndOf="@id/bf">
+        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/bx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="4.0dip" android:drawableStart="@drawable/t9" android:fontFamily="sans-serif-medium" />
+        <TextView android:textSize="10.0sp" android:textColor="#ff4e5665" android:ellipsize="end" android:id="@id/bu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+    </LinearLayout>
+</com.inshot.adcool.banner.AdView>

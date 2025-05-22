@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ky" style="@style/v8">
+        <TextView android:textSize="18.0sp" android:textColor="@color/h7" android:id="@id/bh" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mt" android:layout_toStartOf="@id/ta" android:layout_alignParentStart="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/h6" android:id="@id/be" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:text="@string/mv" android:layout_below="@id/bh" android:layout_toStartOf="@id/ta" android:layout_alignParentStart="true" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/g9" android:id="@id/ta" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="end" android:id="@id/dj" android:background="@drawable/e7" android:visibility="gone" android:layout_width="33.0dip" android:layout_height="16.0dip" android:layout_marginTop="13.0dip" />
+</FrameLayout>

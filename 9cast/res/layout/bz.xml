@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ka" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="18.0dip" app:v9="@drawable/fi" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/yq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240.0dip" android:text="Recent videos" android:maxLines="2" android:layout_centerVertical="true" android:alpha="0.87" android:layout_marginStart="34.0dip" android:layout_toEndOf="@id/ka" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/qc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="234" android:layout_centerVertical="true" android:alpha="0.54" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/yq" />
+    </RelativeLayout>
+</RelativeLayout>

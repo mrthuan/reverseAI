@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="b4">I-auto Rotate</string>
+    <string name="bi">Liwanag :</string>
+    <string name="bj">Liwanag</string>
+    <string name="ea">Pinduting muli upang mag-exit</string>
+    <string name="g7">Landscape</string>
+    <string name="g8">Naka-lock ang Landscape</string>
+    <string name="h6">Naka-lock</string>
+    <string name="jf">I-mute</string>
+    <string name="jg">I-on ang Tunog</string>
+    <string name="jh">I-off ang Tunog</string>
+    <string name="k5">Walang susunod na video.</string>
+    <string name="k6">Walang susunod na video.</string>
+    <string name="kj">Naka-off</string>
+    <string name="m_">Portrait</string>
+    <string name="ma">Naka-lock ang Portrait</string>
+    <string name="n0">I-loop Lahat</string>
+    <string name="n1">Mag-tap upang lumipat sa pagitan ng Repeat, Loop, Shuffle, at Ayos</string>
+    <string name="n3">Ayos</string>
+    <string name="n4">Ulitin ang Kasalukuyan+</string>
+    <string name="n5">I-shuffle Lahat</string>
+    <string name="nc">Magpatuloy sa pag-play simula sa kung saan ka huminto.</string>
+    <string name="nj">I-rotate</string>
+    <string name="o8">Progress ng Seek</string>
+    <string name="ol">Ibahagi</string>
+    <string name="oq">Hindi nag-play, pakisubukang muli.</string>
+    <string name="ot">Magsimulang muli</string>
+    <string name="q3">Volume</string>
+</resources>

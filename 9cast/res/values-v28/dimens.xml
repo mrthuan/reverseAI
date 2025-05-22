@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="ko">0.24</item>
+    <item type="dimen" name="kp">0.4</item>
+    <item type="dimen" name="kq">0.4</item>
+    <item type="dimen" name="kr">0.24</item>
+    <item type="dimen" name="kt">0.12</item>
+    <item type="dimen" name="ku">0.2</item>
+    <item type="dimen" name="kv">0.2</item>
+    <item type="dimen" name="kw">0.12</item>
+</resources>

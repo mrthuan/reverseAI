@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="13.0dip" android:paddingEnd="13.0dip">
+        <com.inshot.cast.xcast.view.SpanClickableTextView android:textSize="15.0sp" android:textColor="@android:color/white" android:id="@id/qk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/p6" android:layout_marginStart="3.0dip" android:layout_marginEnd="3.0dip" app:u7="?eq" app:u9="true" />
+        <com.inshot.cast.xcast.view.SpanClickableTextView android:textSize="15.0sp" android:textColor="@android:color/white" android:id="@id/uz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/p4" android:layout_marginStart="3.0dip" android:layout_marginEnd="3.0dip" app:u7="?eq" app:u9="true" />
+        <com.inshot.cast.xcast.view.ClearEditText android:textSize="15.0sp" android:textColor="@android:color/white" android:id="@id/uy" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:drawableRight="@drawable/cw" android:drawablePadding="5.0dip" />
+    </LinearLayout>
+</ScrollView>

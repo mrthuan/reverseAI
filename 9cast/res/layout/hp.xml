@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:id="@id/kv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:paddingStart="-6.0dip">
+        <RadioButton android:theme="@style/ux" android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/qi" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/bs" />
+        <RadioButton android:theme="@style/ux" android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/q6" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/k9" />
+        <RadioButton android:theme="@style/ux" android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/n5" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/ke" />
+        <RadioButton android:theme="@style/ux" android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/qr" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/ky" />
+    </RadioGroup>
+    <EditText android:textSize="14.0sp" android:id="@id/if" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/tx" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?f_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false" android:layoutDirection="ltr" app:nh="qw" app:nl="qw" app:nr="qw"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/mq" android:layout_width="@dimen/gr" android:layout_height="@dimen/gp" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/gq" layout="@layout/db" />
+    <include layout="@layout/dl" />
+</LinearLayout>

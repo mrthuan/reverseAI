@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#50000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <androidx.cardview.widget.CardView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="13.0dip" app:cp="4.0dip">
+            <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="240.0dip">
+                <ImageView android:id="@id/bb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" />
+                <RelativeLayout android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/c9" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@mipmap/t" android:scaleType="centerCrop" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="15.0sp" android:textColor="#ff0c0c0c" android:id="@id/c_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pz" android:maxLines="1" android:singleLine="true" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/c9" app:k5="@font/c" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="#8a000000" android:id="@id/c8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/a8" android:layout_below="@id/c_" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/c9" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:scaleType="centerInside" android:layout_below="@id/c8" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/c9" app:v9="@drawable/eo" />
+                </RelativeLayout>
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/j_" android:background="@drawable/c0" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginBottom="16.0dip" android:text="@string/fz" android:textAllCaps="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:k5="@font/c" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+    <ImageView android:id="@id/b_" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/eq" android:layout_alignTop="@id/bg" android:layout_alignEnd="@id/bg" />
+</RelativeLayout>

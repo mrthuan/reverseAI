@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AlertDialogLayout android:gravity="start|center|top" android:orientation="vertical" android:id="@id/qx" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/k" />
+    <FrameLayout android:id="@id/fm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+        <View android:layout_gravity="top" android:id="@id/uc" android:background="?eu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <androidx.core.widget.NestedScrollView android:id="@id/ud" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <android.widget.Space android:id="@id/y5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/aa" />
+                <TextView android:id="@android:id/message" android:paddingLeft="?h7" android:paddingRight="?h7" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ig" />
+                <android.widget.Space android:id="@id/y4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/aa" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <View android:layout_gravity="bottom" android:id="@id/ub" android:background="?eu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/g4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+        <FrameLayout android:id="@id/g3" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/i" />
+</androidx.appcompat.widget.AlertDialogLayout>

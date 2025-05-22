@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="42" android:drawable="@drawable/j4" />
+    <item android:duration="42" android:drawable="@drawable/j6" />
+    <item android:duration="42" android:drawable="@drawable/j8" />
+    <item android:duration="42" android:drawable="@drawable/j_" />
+    <item android:duration="42" android:drawable="@drawable/jb" />
+    <item android:duration="42" android:drawable="@drawable/jd" />
+    <item android:duration="42" android:drawable="@drawable/jf" />
+    <item android:duration="42" android:drawable="@drawable/jh" />
+    <item android:duration="42" android:drawable="@drawable/jj" />
+    <item android:duration="42" android:drawable="@drawable/jl" />
+    <item android:duration="42" android:drawable="@drawable/jn" />
+    <item android:duration="42" android:drawable="@drawable/jp" />
+    <item android:duration="42" android:drawable="@drawable/jr" />
+    <item android:duration="42" android:drawable="@drawable/jt" />
+    <item android:duration="42" android:drawable="@drawable/jv" />
+    <item android:duration="42" android:drawable="@drawable/jx" />
+    <item android:duration="42" android:drawable="@drawable/jz" />
+    <item android:duration="42" android:drawable="@drawable/k1" />
+    <item android:duration="42" android:drawable="@drawable/k3" />
+    <item android:duration="42" android:drawable="@drawable/k5" />
+    <item android:duration="42" android:drawable="@drawable/k7" />
+    <item android:duration="42" android:drawable="@drawable/k9" />
+    <item android:duration="42" android:drawable="@drawable/ka" />
+    <item android:duration="42" android:drawable="@drawable/kc" />
+    <item android:duration="42" android:drawable="@drawable/ke" />
+    <item android:duration="42" android:drawable="@drawable/kg" />
+    <item android:duration="42" android:drawable="@drawable/ki" />
+    <item android:duration="42" android:drawable="@drawable/kk" />
+    <item android:duration="42" android:drawable="@drawable/km" />
+    <item android:duration="42" android:drawable="@drawable/ko" />
+    <item android:duration="42" android:drawable="@drawable/kq" />
+</animation-list>

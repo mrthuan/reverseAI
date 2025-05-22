@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/oy" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/sx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dw" android:layout_marginTop="@dimen/dw" android:layout_marginRight="@dimen/dw" android:layout_marginBottom="@dimen/fj">
+                <ImageView android:id="@id/sm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/p0" android:layout_centerHorizontal="true" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj" android:layout_below="@id/sm">
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/nh" android:textColor="@color/cv" android:gravity="center" android:id="@id/sw" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gi" android:maxLines="4" android:layout_centerHorizontal="true" android:fontFamily="@string/gz" app:au="@dimen/nh" app:av="@dimen/n8" app:ax="1.0sp" app:ay="zo" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/nh" android:textStyle="bold" android:textColor="@color/cv" android:gravity="center" android:id="@id/sq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gx" android:maxLines="2" android:fontFamily="@string/gz" app:au="@dimen/nh" app:av="@dimen/n8" app:ax="1.0sp" app:ay="zo" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/nh" android:textColor="@color/cv" android:gravity="center" android:id="@id/sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/di" android:text="@string/gr" android:maxLines="2" android:layout_below="@id/sq" android:fontFamily="@string/gz" app:au="@dimen/nh" app:av="@dimen/n8" app:ax="1.0sp" app:ay="zo" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/wa" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/fb" android:layout_marginLeft="@dimen/dw" android:layout_marginRight="@dimen/dw" android:layout_below="@id/sx">
+                <RelativeLayout android:clipChildren="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.zjsoft.rate.view.StarCheckView android:id="@id/sr" android:background="?ue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/p8" />
+                    <com.zjsoft.rate.view.StarShiningView android:id="@id/lx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/p7" android:scaleX="-1.0" />
+                </RelativeLayout>
+                <com.zjsoft.rate.view.StarCheckView android:id="@id/ss" android:background="?ue" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/p8" android:layout_weight="1.0" />
+                <com.zjsoft.rate.view.StarCheckView android:id="@id/st" android:background="?ue" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/p8" android:layout_weight="1.0" />
+                <com.zjsoft.rate.view.StarCheckView android:id="@id/su" android:background="?ue" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/p8" android:layout_weight="1.0" />
+                <com.zjsoft.rate.view.StarCheckView android:id="@id/sv" android:background="?ue" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/p8" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/so" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dw" android:layout_marginRight="@dimen/dw" android:weightSum="5.0" android:layout_below="@id/wa">
+                <ImageView android:id="@id/sn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/p6" android:scaleType="fitCenter" android:layout_weight="1.0" android:scaleX="-1.0" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/ng" android:textColor="@color/cu" android:gravity="end" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/gr" android:maxLines="2" android:layout_weight="4.0" android:fontFamily="@string/h0" app:au="@dimen/ng" app:av="@dimen/n8" app:ax="1.0sp" app:ay="zo" />
+            </LinearLayout>
+            <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:id="@id/lv" android:background="@drawable/or" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/e5" android:layout_marginTop="@dimen/dp" android:layout_marginRight="@dimen/e5" android:layout_marginBottom="@dimen/e5" android:layout_below="@id/so" android:layout_marginStart="@dimen/e5" android:layout_marginEnd="@dimen/e5">
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/ng" android:textColor="@color/co" android:gravity="center" android:id="@id/lu" android:background="?ud" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/el" android:text="@string/gg" android:maxLines="1" android:textAllCaps="true" android:fontFamily="@string/gz" app:au="@dimen/ng" app:av="@dimen/n8" app:ax="1.0sp" app:ay="zo" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

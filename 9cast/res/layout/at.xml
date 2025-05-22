@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="#ffcccccc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ei" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/pm" android:alpha="0.7" />
+    <RadioGroup android:id="@id/el" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:theme="@style/ux" android:textSize="14.0sp" android:textColor="#b2ffffff" android:id="@id/er" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/qt" android:textAllCaps="true" />
+        <RadioButton android:theme="@style/ux" android:textSize="14.0sp" android:textColor="#b2ffffff" android:id="@id/en" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/jy" android:textAllCaps="true" />
+    </RadioGroup>
+    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0sp" android:text="@string/pn" android:alpha="0.7" />
+    <RadioGroup android:id="@id/gm" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:theme="@style/ux" android:textSize="14.0sp" android:textColor="#b2ffffff" android:id="@id/go" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/qt" android:textAllCaps="true" />
+        <RadioButton android:theme="@style/ux" android:textSize="14.0sp" android:textColor="#b2ffffff" android:id="@id/gn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/jy" android:textAllCaps="true" />
+    </RadioGroup>
+</LinearLayout>

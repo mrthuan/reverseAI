@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/z0" android:background="@color/ar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/uz" />
+    <FrameLayout android:id="@id/fr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_above="@id/fr" android:layout_below="@id/z0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/t2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="16.0sp" android:layout_gravity="center" android:id="@id/hs" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/o5" android:alpha="0.87" />
+    </FrameLayout>
+    <ImageView android:background="@drawable/eb" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_above="@id/fr" />
+    <ProgressBar android:id="@id/sc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:indeterminateTint="@color/ar" />
+</RelativeLayout>

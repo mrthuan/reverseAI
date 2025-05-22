@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font app:k4="@font/c" app:kc="q8" app:ke="600" />
+    <font app:k4="@font/b" app:kc="q8" app:ke="500" />
+    <font app:k4="@font/d" app:kc="q8" app:ke="400" />
+</font-family>

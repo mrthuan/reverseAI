@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/oy" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/dw" android:paddingRight="@dimen/dw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dw">
+        <TextView android:textSize="@dimen/ne" android:textColor="@color/cy" android:id="@id/lw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gq" android:fontFamily="@string/h0" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ds" android:src="@drawable/p_" />
+    </LinearLayout>
+    <LinearLayout android:gravity="end|center" android:orientation="vertical" android:paddingBottom="@dimen/fj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dw" android:layout_marginTop="@dimen/dw" android:layout_marginRight="@dimen/fj" android:layout_marginStart="@dimen/dw" android:layout_marginEnd="@dimen/fj">
+        <Button android:textSize="@dimen/nc" android:textColor="@color/cs" android:gravity="end|center" android:id="@id/lu" android:background="?ud" android:paddingLeft="@dimen/di" android:paddingRight="@dimen/di" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/f3" android:minHeight="@dimen/el" android:text="@string/gf" android:textAllCaps="true" android:fontFamily="@string/gz" />
+        <Button android:textSize="@dimen/nc" android:textColor="@color/cs" android:gravity="center" android:id="@id/ea" android:background="?ud" android:paddingLeft="@dimen/di" android:paddingRight="@dimen/di" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/f3" android:minHeight="@dimen/el" android:text="@string/gd" android:textAllCaps="true" android:fontFamily="@string/gz" />
+    </LinearLayout>
+</LinearLayout>

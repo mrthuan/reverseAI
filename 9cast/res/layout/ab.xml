@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/js" android:background="@mipmap/bm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/tw" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-13.0dip" android:layout_below="@id/js">
+                <LinearLayout android:orientation="vertical" android:id="@id/s8" android:paddingTop="14.0dip" android:paddingBottom="120.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <LinearLayout android:orientation="vertical" android:id="@id/sb" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="14.0sp" android:textColor="@color/d0" android:layout_gravity="end" android:id="@id/qe" android:paddingTop="8.0dip" android:paddingBottom="20.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/h2" android:paddingStart="30.0dip" android:paddingEnd="20.0dip" app:k5="@font/c" />
+                        <LinearLayout android:orientation="vertical" android:id="@id/s7" android:background="@drawable/tx" android:paddingTop="27.0dip" android:paddingBottom="16.0dip" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-17.0dip" android:paddingStart="15.0dip" android:paddingEnd="15.0dip">
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <TextView android:textSize="20.0sp" android:textColor="@color/gi" android:id="@id/yq" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/mi" android:layout_weight="1.0" />
+                                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/s6" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                    <TextView android:textSize="20.0sp" android:textColor="#ffff5a1e" android:id="@id/s9" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                                    <TextView android:textSize="13.0sp" android:textColor="@color/gh" android:id="@id/s_" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                                </LinearLayout>
+                            </LinearLayout>
+                            <View android:id="@id/gz" android:background="@drawable/sn" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="17.0dip" />
+                            <LinearLayout android:id="@id/wq" android:duplicateParentState="true" style="@style/v7" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:id="@id/fe" android:background="?android:selectableItemBackgroundBorderless" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:src="@mipmap/c2" android:layout_marginEnd="11.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </ScrollView>
+    <RelativeLayout android:layout_gravity="bottom" android:background="@drawable/cm" android:paddingTop="40.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="17.0dip" android:paddingEnd="17.0dip">
+        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/ef" android:background="@drawable/cl" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/a" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/md" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:layout_alignTop="@id/ef" android:layout_alignBottom="@id/ef" android:layout_marginEnd="-15.0dip" android:layout_alignEnd="@id/ef" />
+    </RelativeLayout>
+</FrameLayout>

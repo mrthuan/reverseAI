@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ar" android:clickable="true" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" app:ic="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:background="@drawable/tt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/di" android:padding="8.0dip" android:layout_width="39.669983dip" android:layout_height="fill_parent" app:v9="@drawable/ex" />
+        <View android:background="#ffdddddd" android:layout_width="0.33000004dip" android:layout_height="fill_parent" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/uq" android:background="@drawable/t7" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_marginStart="6.0dip">
+            <ImageView android:id="@id/us" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" android:layout_marginEnd="2.0dip" />
+            <ImageView android:id="@id/hg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/h0" android:alpha="0.38" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.AppCompatAutoCompleteTextView android:ellipsize="end" android:id="@id/dg" android:background="@drawable/tt" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:completionThreshold="1" android:layout_weight="1.0" android:inputType="textAutoComplete|textUri" android:dropDownWidth="fill_parent" android:imeOptions="actionGo" android:dropDownHeight="wrap_content" android:dropDownVerticalOffset="8.0dip" android:paddingStart="5.0dip" android:layout_marginStart="8.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/fe" android:padding="8.0dip" android:layout_width="39.669983dip" android:layout_height="fill_parent" app:v9="@drawable/f6" />
+    </LinearLayout>
+</LinearLayout>

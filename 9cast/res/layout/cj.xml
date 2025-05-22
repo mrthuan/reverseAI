@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/nk" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_alignParentEnd="true" app:v9="@drawable/he" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/gd" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/nk" app:v9="@drawable/gw" />
+    <TextView android:textSize="13.0sp" android:textColor="#42000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g_" android:layout_centerVertical="true" android:layout_toStartOf="@id/gd" android:layout_alignParentStart="true" />
+</RelativeLayout>

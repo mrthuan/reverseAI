@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@id/sz" android:checkableBehavior="none">
+        <item android:icon="@drawable/gj" android:id="@id/k3" android:title="@string/fq" android:checkable="true" />
+        <item android:icon="@drawable/icon_recently_video" android:id="@id/t0" android:title="@string/mm" />
+        <item android:icon="@drawable/icon_playlist" android:id="@id/rt" android:title="@string/lu" android:actionLayout="@layout/fv" app:n="@layout/fv" />
+        <item android:icon="@drawable/j2" android:id="@id/nb" android:title="@string/nw" android:checkable="true" app:n="@layout/fv" />
+        <item android:icon="@drawable/icon_iptv" android:id="@id/kt" android:title="@string/g3" android:checkable="true" app:n="@layout/fv" />
+    </group>
+    <group android:id="@id/ja" android:checkableBehavior="single">
+        <item android:icon="@drawable/ns" android:id="@id/zx" android:title="@string/py" />
+        <item android:icon="@drawable/mz" android:id="@id/kg" android:title="@string/lr" />
+        <item android:icon="@drawable/icon_music" android:id="@id/d_" android:title="@string/ax" />
+    </group>
+    <group android:id="@id/jc" android:checkableBehavior="single">
+        <item android:icon="@drawable/hb" android:id="@id/jb" android:title="@string/ey" />
+        <item android:icon="@drawable/hc" android:id="@id/jd" android:title="@string/ez" />
+    </group>
+    <group android:id="@id/e3">
+        <item android:icon="@drawable/ia" android:id="@id/a0p" android:title="@string/q9" />
+        <item android:icon="@drawable/hd" android:id="@id/k2" android:title="@string/fp" />
+        <item android:icon="@drawable/icon_bookmark" android:id="@id/dt" android:title="@string/be" />
+    </group>
+    <group android:id="@id/va">
+        <item android:icon="@drawable/icon_vip" android:id="@id/t_" android:visible="false" android:title="@string/mb" />
+        <item android:icon="@drawable/h1" android:id="@id/ju" android:visible="false" android:title="@string/f5" />
+        <item android:icon="@drawable/fg" android:id="@id/if" android:visible="false" android:title="@string/ei" />
+        <item android:icon="@drawable/i3" android:id="@id/v_" android:title="@string/of" />
+    </group>
+</menu>

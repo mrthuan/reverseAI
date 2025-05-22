@@ -1,0 +1,9 @@
+{
+  "ad_full_splash": "ad_full_splash",
+  "ad_native_language": "ad_native_language",
+  "ai_admob_reward_ads": "ad_ai_reward_list",
+  "ai_admob_reward_error_full_ads": "ad_ai_reward_fail",
+  "ad_full_default": "ad_full_default",
+  "ad_full_webview": "ad_full_ai_generate",
+  "test_banner": "test_banner"
+}

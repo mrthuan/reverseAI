@@ -1,0 +1,13 @@
+{
+  "main_activity": "com.inshot.cast.xcast.MainActivity",
+  "language_activity": "com.inshot.cast.xcast.NoWebViewActivity",
+  "app_name": "9Cast - Cast To TV",
+  "splash_big_image": "cast_video",
+  "splash_text_color": "#333333",
+  "splash_title_text_size": 24,
+  "edit_image_class": "com.facebook.main.AnotherActivity",
+  "edit_image_intent": "imagePath",
+  "splash_background": "#ffffff",
+  "splash_background_image": "max_splash_bg",
+  "splash_help_text": "Loading data, the first time it may take a little longer, this action may contain ads!"
+}

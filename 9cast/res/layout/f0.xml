@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:theme="?rr" android:id="@id/q2" android:background="?f3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?d" android:layout_alignParentTop="true">
+        <TextView android:textAppearance="@style/io" android:ellipsize="start" android:id="@id/pz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.recyclerview.widget.RecyclerView android:id="@android:id/list" android:focusable="true" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/py" android:layout_below="@id/q2" />
+    <FrameLayout android:id="@id/py" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/pv" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/pu" android:layout_width="0.0dip" android:layout_height="48.0dip" android:text="@string/jp" android:layout_weight="1.0" style="?bt" />
+            <Button android:id="@id/pw" android:layout_width="0.0dip" android:layout_height="48.0dip" android:text="@string/jq" android:layout_weight="1.0" style="?bt" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/q1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:id="@id/q3" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="0.0dip" android:layout_height="48.0dip" android:hint="@string/jo" android:maxLines="1" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/px" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/qq" android:tint="?rp" android:hint="@string/jq" style="?bt" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/gz" android:background="?rq" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/py" />
+</RelativeLayout>

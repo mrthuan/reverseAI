@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="d9">16.0dip</dimen>
+    <dimen name="d_">180.0dip</dimen>
+    <dimen name="da">12.0dip</dimen>
+    <dimen name="db">12.0dip</dimen>
+    <dimen name="hb">32.0dip</dimen>
+    <dimen name="mz">14.0dip</dimen>
+    <dimen name="n1">22.0dip</dimen>
+    <dimen name="n2">24.0dip</dimen>
+    <dimen name="n3">360.0dip</dimen>
+    <dimen name="n4">64.0dip</dimen>
+    <dimen name="n6">30.0dip</dimen>
+</resources>

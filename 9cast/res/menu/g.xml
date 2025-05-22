@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/i0" android:id="@id/uj" android:title="search" app:uo="c1" />
+    <item android:icon="@drawable/h5" android:id="@id/ib" android:title="@string/oh" app:uo="c1" />
+    <item android:icon="@drawable/ir" android:id="@id/ku" android:visible="false" android:title="" app:uo="c1" />
+    <item android:icon="@mipmap/af" android:id="@id/a0_" android:visible="false" android:title="" app:uo="c1" />
+    <item android:icon="@drawable/ez" android:id="@id/ek" android:title="@string/bt" app:n="@layout/as" app:uo="c1" />
+    <item android:id="@id/m9" android:visible="false" android:title="@string/h7" app:uo="pq" />
+    <item android:id="@id/nc" android:visible="false" android:title="" app:n="@layout/dp" app:uo="c1" />
+</menu>

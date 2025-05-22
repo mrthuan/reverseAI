@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/z4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/z0" layout="@layout/hl" />
+        <ProgressBar android:layout_gravity="bottom" android:id="@id/sc" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="3.0dip" android:max="100" android:progress="30" android:indeterminate="false" android:progressTint="#ffffe18d" android:progressBackgroundTint="#00000000" android:backgroundTint="#00000000" style="@style/pi" />
+        <include android:id="@id/kp" android:visibility="gone" layout="@layout/cu" />
+    </FrameLayout>
+    <com.safeads.android.gms.ads.AdView android:id="@id/adView" android:tag="google_native_ad_all" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/dz" android:background="#fffafafa" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_above="@id/adView">
+        <View android:background="#ffe0e0e0" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/jh" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:v9="@drawable/h_" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/j2" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:v9="@drawable/hi" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/vy" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/k3" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:v9="@drawable/hf" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/t5" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:v9="@drawable/hq" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/n_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/dz" />
+    <FrameLayout android:id="@id/j8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/n_" android:layout_below="@id/z4" />
+    <ImageView android:background="@drawable/eb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/n_" />
+    <RelativeLayout android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/vw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ti" android:layout_alignTop="@id/vx" android:layout_alignBottom="@id/vx" android:scaleX="0.0" android:scaleY="0.0" android:layout_alignStart="@id/vx" android:layout_alignEnd="@id/vx" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/vx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tf" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <com.safeads.android.gms.ui.InterViewLoad android:tag="google_inter_ad_browser" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <com.safeads.android.gms.ui.InterViewShow android:tag="google_inter_ad_browser" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</RelativeLayout>

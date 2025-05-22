@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/uv" android:background="@drawable/tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:paddingStart="15.0dip" android:paddingEnd="15.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hz" />
+        <TextView android:textSize="15.0sp" android:textColor="#42000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nx" android:layout_marginStart="7.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/jr" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/jq" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:layout_gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eq" android:layout_centerVertical="true" android:alpha="0.87" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/a04" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                <TextView android:textSize="14.0sp" android:textColor="#de000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/q0" />
+                <ImageView android:layout_gravity="center|right" android:id="@id/nk" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/c1" />
+            </LinearLayout>
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/t2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/wy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/yq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/al" android:alpha="0.87" />
+        <ImageView android:layout_gravity="center|right" android:id="@id/a0_" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/a1" />
+    </FrameLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/vt" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textSize="13.0sp" android:textColor="#ff000000" android:id="@id/vr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/or" android:alpha="0.54" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff000000" android:id="@id/vs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d8" android:alpha="0.87" android:layout_marginStart="4.0dip" />
+            <ImageView android:id="@id/vq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/np" android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:id="@id/ql" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:alpha="0.87" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/qm" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/td" android:layout_centerVertical="true" android:layout_marginEnd="4.0dip" android:layout_toStartOf="@id/ql" />
+    </RelativeLayout>
+</LinearLayout>

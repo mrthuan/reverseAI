@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="296.0dip" android:layout_height="wrap_content" app:co="#ffffffff" app:cp="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="296.0dip" android:layout_height="408.0dip">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/fu" android:alpha="0.87" android:layout_marginStart="20.0dip" app:k5="@font/c" />
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|center" android:id="@id/fe" android:padding="8.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" app:v9="@drawable/f7" />
+        </FrameLayout>
+        <androidx.viewpager.widget.ViewPager android:id="@id/a0a" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="8.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <FrameLayout android:id="@id/lq" android:background="@drawable/c2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="20.0dip">
+                <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:alpha="0.54" android:textAllCaps="true" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:v9="@drawable/gq" />
+            </FrameLayout>
+            <com.rd.PageIndicatorView android:layout_gravity="center" android:id="@id/km" android:layout_width="wrap_content" android:layout_height="wrap_content" app:so="vj" app:sr="true" app:ss="true" app:su="12.0dip" app:sv="2.5dip" app:sz="#ff000000" app:t1="#55000000" />
+            <FrameLayout android:layout_gravity="end" android:id="@id/tv" android:background="@drawable/c2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="20.0dip">
+                <TextView android:textSize="15.0sp" android:textColor="@color/ar" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kr" android:alpha="0.54" android:textAllCaps="true" />
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" app:v9="@drawable/h7" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

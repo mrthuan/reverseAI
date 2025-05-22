@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="#de000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/af" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/fe" android:background="@drawable/c3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="#61000000" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" app:v9="@drawable/f8" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/t2" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fadeScrollbars="false" />
+</LinearLayout>

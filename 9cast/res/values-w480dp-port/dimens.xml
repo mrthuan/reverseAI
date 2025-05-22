@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="iq">0.0dip</dimen>
+    <dimen name="is">22.0dip</dimen>
+    <dimen name="it">48.0dip</dimen>
+    <dimen name="ix">48.0dip</dimen>
+    <dimen name="iy">48.0dip</dimen>
+    <dimen name="ja">0.0dip</dimen>
+</resources>

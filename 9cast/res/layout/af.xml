@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/aw" />
+    <View android:id="@id/ri" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <androidx.appcompat.widget.Toolbar android:theme="@style/v6" android:id="@id/z0" android:background="?f3" android:layout_width="fill_parent" android:layout_height="?d" android:layout_below="@id/ri" app:t_="@style/k" app:yj="@style/v5" app:yk="#ffffffff" />
+    <RelativeLayout android:id="@id/ul" android:background="@color/ar" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:layout_alignTop="@id/z0">
+        <androidx.appcompat.widget.AppCompatEditText android:theme="@style/v0" android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/hm" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" android:layout_toEndOf="@id/di" />
+        <ImageView android:id="@id/di" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ew" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+        <ImageView android:id="@id/fe" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gt" android:layout_centerVertical="true" android:layout_marginEnd="24.0dip" android:layout_alignParentEnd="true" />
+        <View android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_marginBottom="6.0dip" android:layout_alignParentBottom="true" android:alpha="0.5" android:layout_marginStart="-3.0dip" android:layout_marginEnd="16.0dip" android:layout_alignStart="@id/hm" />
+    </RelativeLayout>
+</RelativeLayout>

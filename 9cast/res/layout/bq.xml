@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/dq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/h" />
+            <RelativeLayout android:id="@id/k1" android:background="@mipmap/j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-40.0dip" android:layout_below="@id/dq" android:layout_marginEnd="8.0dip" android:layout_alignEnd="@id/dq">
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/ar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/af" android:layout_centerVertical="true" android:layout_marginStart="14.0dip" android:layout_marginEnd="44.0dip" />
+            </RelativeLayout>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:src="@mipmap/i" android:layout_alignTop="@id/k1" android:layout_alignEnd="@id/k1" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0sp" android:textColor="#61000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/lw" />
+    </LinearLayout>
+</RelativeLayout>

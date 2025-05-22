@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bo">64.0dip</dimen>
+    <dimen name="gs">240.0dip</dimen>
+</resources>

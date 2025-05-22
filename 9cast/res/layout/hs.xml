@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="423.0dip" android:minHeight="423.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/fe" android:background="?android:selectableItemBackgroundBorderless" android:padding="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" app:v9="@drawable/f6" />
+    <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:id="@id/yq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/oa" android:alpha="0.87" android:layout_marginStart="24.0dip" android:layout_toStartOf="@id/fe" android:layout_alignParentStart="true" app:k5="@font/c" />
+    <RelativeLayout android:id="@id/xb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_below="@id/yq" android:layout_marginStart="24.0dip" android:layout_marginEnd="16.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/w9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nl" android:layout_centerVertical="true" android:alpha="0.87" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ib" android:background="@drawable/c2" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/w9" app:v9="@drawable/h3" />
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/xa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" android:buttonTint="@color/ar" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/xb">
+        <TextView android:textSize="13.0sp" android:textColor="#ff000000" android:id="@id/i6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/nk" android:alpha="0.54" android:layout_marginStart="24.0dip" android:layout_marginEnd="16.0dip" />
+        <FrameLayout android:id="@id/fn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="pj">@drawable/pl</item>
+    <item type="drawable" name="pk">@drawable/pi</item>
+    <item type="drawable" name="r0">#3333b5e5</item>
+    <item type="drawable" name="r1">#0cffffff</item>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/z0" android:background="@color/ar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="4.0dip" app:yb="@string/fp" app:yj="@style/v5" app:yk="#ffffffff" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/t2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/du" android:layout_below="@id/z0" />
+    <ImageView android:id="@id/hv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/b2" android:layout_centerInParent="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/du" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/je" android:background="@drawable/bl" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="53.0dip" android:layout_marginTop="32.0dip" android:text="@string/dw" android:textAllCaps="true" android:stateListAnimator="@null" style="?android:borderlessButtonStyle" />
+        <com.safeads.android.gms.ads.AdView android:id="@id/container" android:tag="google_native_ad_all" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.inshot.adcool.widget.BannerAdLayout android:id="@id/ba" android:layout_width="fill_parent" android:layout_height="wrap_content" app:yt="true" />
+        </FrameLayout>
+        <com.safeads.android.gms.ui.InterViewLoad android:tag="google_inter_ad_bookmark" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        <com.safeads.android.gms.ui.InterViewShow android:tag="google_inter_ad_bookmark" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    </LinearLayout>
+</RelativeLayout>

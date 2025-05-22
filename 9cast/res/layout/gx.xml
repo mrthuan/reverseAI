@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.inshot.inplayer.widget.XVideoView android:id="@id/a03" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/ca" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textColor="#ffffffff" android:gravity="bottom|center" android:id="@id/x1" android:padding="5.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:shadowColor="#ff000000" android:shadowDx="5.0" android:shadowDy="5.0" android:shadowRadius="10.0" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/cq" android:background="#33000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="14.0dip" android:textColor="@android:color/white" android:id="@id/cu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/oq" />
+            <ImageView android:id="@id/cr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:src="@drawable/tb" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+        <include layout="@layout/gv" />
+        <include android:layout_width="fill_parent" android:layout_height="157.0dip" android:layout_alignParentBottom="true" layout="@layout/gt" />
+        <include layout="@layout/gw" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/cm" android:background="@drawable/c2" android:padding="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.5dip" android:layout_alignParentBottom="true" android:layout_marginStart="6.0dip" android:layout_alignParentStart="true" app:v9="@drawable/nr" />
+        <ImageView android:id="@id/rl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:src="@drawable/ta" android:layout_centerInParent="true" />
+        <include layout="@layout/gu" />
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/fv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ck" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="50.0dip" android:layout_height="50.0dip" android:indeterminateOnly="true" android:indeterminateBehavior="repeat" />
+        <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/ct" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:shadowColor="#ff000000" android:shadowDx="5.0" android:shadowDy="5.0" android:shadowRadius="10.0" />
+    </LinearLayout>
+    <TextView android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/eu" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" />
+    <ViewStub android:id="@id/lk" android:layout="@layout/d0" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

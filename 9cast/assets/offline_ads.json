@@ -1,0 +1,22 @@
+{
+  "apps": [
+    {
+      "title": "[OFF] Anime Zero - Art Ai Creator",
+      "description": "[OFF] ZeroAI - Art Maker: Unleash Your Creative Genius!",
+      "link_app": "https:\/\/play.google.com\/store\/apps\/details?id=com.zeroai.anime.artgenerate",
+      "icon_url": "ads/app1.webp",
+      "banner_url": "ads/banner1.webp",
+      "rate": "4.9",
+      "call_to_action": "Install"
+    },
+    {
+      "title": "[OFF] Step Runner - Pedometer Track",
+      "description": "[OFF] \ud83c\udfc3\ud83d\udca8 Unlock a world where every step counts and unlock your potential to reach new fitness heights.",
+      "link_app": "https:\/\/play.google.com\/store\/apps\/details?id=com.step.workout.walktool&hl=en-us",
+      "icon_url": "ads/app2.webp",
+      "banner_url": "ads/banner1.webp",
+      "rate": "5.0",
+      "call_to_action": "Install"
+    }
+  ]
+}

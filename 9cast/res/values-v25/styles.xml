@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="fx" parent="@style/g8" />
+    <style name="fy" parent="@style/g9" />
+    <style name="g8" parent="@android:style/Theme.Material.NoActionBar" />
+    <style name="g9" parent="@android:style/Theme.Material.Light.NoActionBar" />
+</resources>

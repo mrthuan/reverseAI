@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/h5" android:id="@id/ib" android:title="@string/oh" app:uo="c1" />
+    <item android:icon="@drawable/ez" android:id="@id/ek" android:title="@string/bt" app:n="@layout/as" app:uo="c1" />
+    <group>
+        <item android:id="@id/k2" android:title="@string/fp" />
+        <item android:id="@id/dt" android:title="@string/be" />
+        <item android:id="@id/bj" android:title="@string/aa" />
+        <item android:id="@id/dr" android:title="@string/b_" />
+        <item android:id="@id/up" android:title="@string/nz" />
+        <item android:id="@id/k7" android:title="@string/fu" />
+        <item android:id="@id/if" android:title="@string/ei" />
+    </group>
+</menu>

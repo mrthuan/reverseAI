@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ky" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:paddingStart="24.0dip" android:paddingEnd="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/g0" android:background="@drawable/t3" android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/em" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:v9="@drawable/f0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:layout_toStartOf="@id/em" android:layout_toEndOf="@id/g0">
+        <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/pm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/fp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

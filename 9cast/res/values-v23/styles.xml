@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="an" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
+    <style name="ax" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse" />
+    <style name="ba" parent="@style/d5" />
+    <style name="bh" parent="@style/d6" />
+    <style name="dq" parent="@android:style/Widget.Material.ActionButton.Overflow" />
+    <style name="dw" parent="@android:style/Widget.Material.Button.Borderless.Colored" />
+    <style name="dy" parent="@android:style/Widget.Material.Button.Colored">
+        <item name="android:textAppearance">@style/iw</item>
+    </style>
+    <style name="e8" parent="@android:style/Widget.Material.EditText">
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="es" parent="@android:style/Widget.Material.RatingBar.Indicator" />
+    <style name="et" parent="@android:style/Widget.Material.RatingBar.Small" />
+    <style name="ez" parent="@android:style/Widget.Material.Spinner.Underlined" />
+    <style name="f0" parent="@android:style/Widget.Material.TextView">
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="fh" parent="@style/q">
+        <item name="co">?android:colorBackgroundFloating</item>
+    </style>
+    <style name="sd" parent="@style/f_">
+        <item name="android:popupBackground">?t8</item>
+        <item name="android:popupElevation">8.0dip</item>
+    </style>
+    <style name="se" parent="@style/fa">
+        <item name="android:popupBackground">?t8</item>
+        <item name="android:popupElevation">8.0dip</item>
+    </style>
+    <style name="d5" parent="@style/d3">
+        <item name="b">?android:actionBarItemBackground</item>
+        <item name="o">?android:actionMenuTextAppearance</item>
+        <item name="p">?android:actionMenuTextColor</item>
+        <item name="a5">?android:actionOverflowButtonStyle</item>
+        <item name="g1">@drawable/y</item>
+        <item name="tq">?android:ratingBarStyleIndicator</item>
+        <item name="tr">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="d6" parent="@style/d4">
+        <item name="b">?android:actionBarItemBackground</item>
+        <item name="o">?android:actionMenuTextAppearance</item>
+        <item name="p">?android:actionMenuTextColor</item>
+        <item name="a5">?android:actionOverflowButtonStyle</item>
+        <item name="g1">@drawable/y</item>
+        <item name="tq">?android:ratingBarStyleIndicator</item>
+        <item name="tr">?android:ratingBarStyleSmall</item>
+    </style>
+</resources>

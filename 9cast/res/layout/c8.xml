@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/wm" android:background="@color/ar" android:layout_width="fill_parent" android:layout_height="25.0dip" />
+    <View android:id="@id/z1" android:background="@color/ar" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:layout_below="@id/wm" />
+    <FrameLayout android:id="@id/fl" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/z1" />
+    <View android:background="@drawable/tp" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_below="@id/z1" />
+</RelativeLayout>
